@@ -7,3 +7,5 @@ reviewers:
   - YeomJaeSeon
 
 numberOfReviewers: 2
+
+addAssignees: author
