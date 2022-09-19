@@ -1,0 +1,9 @@
+addReviewers: true
+
+addAssignees: false
+
+reviewers:
+  - alex515151
+  - YeomJaeSeon
+
+numberOfReviewers: 2
