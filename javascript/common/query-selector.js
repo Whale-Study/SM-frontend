@@ -8,9 +8,6 @@
  * define all global elements by querySelector
  */
 
-// test button
-export const buttonEL = document.querySelector('.btn');
-
 // kakao login li
 export const kakaoLoginLIEL = document.querySelector('#kakao-login');
 
