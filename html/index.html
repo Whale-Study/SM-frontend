@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SM Project</title>
     <link rel="stylesheet" href="../css/main.css">
+    <!-- 카카오 sdk -->
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <!-- js file -->
     <script type="module" src="../javascript/index.js"></script>
 </head>
 <body>
     <button class="btn">click!</button>
     <h1 class='title' hidden="true">hello SM Project</h1>
+
+    <ul>
+        <li id="kakao-login">
+          <a href="javascript:void(0)">
+              <span>카카오 로그인</span>
+          </a>
+        </li>
+        <li id="kakao-logout">
+          <a href="javascript:void(0)">
+              <span>카카오 로그아웃</span>
+          </a>
+        </li>
+    </ul>
 </body>
 </html>
