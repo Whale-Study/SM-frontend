@@ -1,14 +1,16 @@
-import { changeHiddenAttribute } from './title.js';
-
-/**
- * define all global elements by querySelector
- */
-const switcher = document.querySelector('.btn');
+import * as querySelector from './common/query-selector.js';
+import { kakaoLogin, kakaoLogout } from './auth/kakao.js';
 
 /**
  * define all event listeners
  */
 
-switcher.addEventListener('click', () => {
-    changeHiddenAttribute(document.querySelector('.title'));
+// kakao login
+querySelector.kakaoLoginLIEL.addEventListener('click', () => {
+    kakaoLogin();
+})
+
+// kakao logout
+querySelector.kakaoLogoutLIEL.addEventListener('click', () => {
+    kakaoLogout();
 })
